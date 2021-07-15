@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vista.MainActivity">
+
+    <TextView
+
+        android:id="@+id/msgerror"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ERROR AL CARGAR LOS DATOS"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+       />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/buscador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backgroundfondo"
+        app:iconifiedByDefault="false"
+        app:queryHint="Buscar peliculas"
+        android:focusable="false">
+
+    </androidx.appcompat.widget.SearchView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/buscador"
+        android:id="@+id/recyclermainactivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+</RelativeLayout>
