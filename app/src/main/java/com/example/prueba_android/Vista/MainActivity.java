@@ -11,7 +11,6 @@ import android.widget.TextView;
 
 import com.example.prueba_android.Adaptadores.AdaptadorMainActivity;
 import com.example.prueba_android.Interfaces.MainActivityView;
-import com.example.prueba_android.Modelo.Peliculas;
 import com.example.prueba_android.Modelo.PeliculasResults;
 import com.example.prueba_android.Presentador.PresenterThemovieDB;
 import com.example.prueba_android.R;
